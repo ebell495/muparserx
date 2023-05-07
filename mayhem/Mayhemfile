@@ -1,0 +1,6 @@
+project: muparserx
+target: muparserx-fuzz
+
+cmds:
+    - cmd: ./muparserx-fuzz
+      libfuzzer: true
